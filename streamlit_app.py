@@ -31,7 +31,7 @@ try:
     
     
 except URLError as e:
-streamlit.error()
+    streamlit.error()
                                 
 #streamlit.write('The User Entered :', fruit_choice)
 
